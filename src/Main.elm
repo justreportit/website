@@ -136,7 +136,7 @@ viewSectionAdvantages =
                         [ text "Open-source" ]
                     , p []
                         [ i []
-                            [ text "Just Report It" ]
+                            [ text "Just Report It " ]
                         , text "is a free and open-source, cross-platform addon to easily report spammers to the domain registrar." ]
                     ]
                 , div
@@ -154,7 +154,7 @@ viewSectionAdvantages =
                     , h3 []
                         [ text "Efficient, fast and scalable" ]
                     , p []
-                        [ text "By utlizing", a
+                        [ text "By utlizing ", a
                             [ Attr.href "https://aws.amazon.com/lambda/"
                             , Attr.target "_blank"
                             ]
@@ -268,7 +268,7 @@ viewSectionMain model =
                     ]
                     [ p []
                         [ i []
-                            [ text "Just Report It" ]
+                            [ text "Just Report It " ]
                         , text "is not a normal spam “reporter“, instead it focuses on the root of the problem and reports these domains straight to the registrar effectively blocking these spammers from ever sending spam from that email address again." ]
                     ]
                 ]
@@ -346,7 +346,7 @@ viewFooter =
                     [ Attr.class "copyright"
                     ]
                     [ p []
-                        [ text "Just Report It is developed by", a
+                        [ text "Just Report It is developed by ", a
                             [ Attr.href "https://github.com/nicprov"
                             , Attr.target "_blank"
                             ]
