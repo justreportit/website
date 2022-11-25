@@ -1,4 +1,4 @@
-# Just Report It Server
+# Just Report It Website
 
 ## Introduction ##
 
