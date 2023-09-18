@@ -242,7 +242,7 @@ viewSectionMain model =
                             , Attr.id "js_user_agent_version_date"
                             , Attr.attribute "data-text" "%version% - released %date% days ago"
                             ]
-                            [ text ("Version " ++ model.outlookVersion) ]
+                            [ text ("Version " ++ model.outlookVersion ++ " (Archived)") ]
                         ]
                     , div
                         [ Attr.class "wrap-btn"
